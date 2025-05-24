@@ -1,0 +1,4 @@
+storePassword=emkokilit
+keyPassword=emkokilit
+keyAlias=key0
+storeFile=emkotahta.jks
