@@ -67,7 +67,7 @@ class _QRPageState extends State<QRPage> with BaseSingleton {
                 [
                   TimeOfDay.fromDateTime(now),
                 ],
-                decripted.contains("|||'")
+                decripted.contains("|||")
                     ? decripted.split('|||').last
                     : decripted.split('|')[1],
               ),
